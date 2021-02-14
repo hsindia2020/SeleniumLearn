@@ -24,7 +24,9 @@ public class AppTest
 
 		System.out.println(driver.getCurrentUrl());
 
-		driver.get("https://yahoo.com");
+		driver.get("https://gmail.com");
+
+		System.out.println(driver.getTitle());
 		driver.navigate().back();
 		driver.navigate().forward();
 
