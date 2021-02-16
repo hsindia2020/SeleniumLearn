@@ -23,7 +23,7 @@ public class AppTest
 
 		System.out.println(driver.getCurrentUrl());
 
-		driver.get("https://youtube.com");
+		driver.get("https://udemy.com");
 
 		System.out.println(driver.getTitle());
 		driver.navigate().back();
